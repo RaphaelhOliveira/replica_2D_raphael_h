@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+    
+header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    padding: 5px 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: flex-end; /* Alinha os itens à parte inferior */
+    position: relative;
+}
+
+header h1 {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-left: 20px; /* Margem padrão para todos os títulos */
+}
+
+.logo {
+    width: 50px;
+    height: 60px;
+    margin-bottom: -40px; /* Ajusta a logo para ficar para baixo da navbar */
+    margin-left: 10px;
+}
+
+header h1:nth-child(5) {
+    margin-right: 325px; /* Ajuste o número aqui para aumentar o espaço */
+}
+
+.rede {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Estilo para o botão */
+.noticias-btn {
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    padding: 5px 10px; /* Espaçamento interno */
+    margin-left: 40px; /* Espaço à esquerda do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-size: 14px; /* Tamanho da fonte */
+    height: 50px;
+    width: 100px;
+}
+
+.noticias-btn:hover {
+    background-color: darkred; /* Cor do botão ao passar o mouse */
+}
