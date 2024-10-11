@@ -1,6 +1,7 @@
-body{
+body {
     margin: 0;
 }
+
 header {
     background-color: black;
     width: 100%;
@@ -9,34 +10,41 @@ header {
     color: white;
     display: flex;
 }
+
 header h1 {
     font-size: 17px;
     padding-left: 25px;
     margin-top: 20px;
 }
+
 header h1:nth-child(5) {
     margin-right: 150px; /* Ajuste o valor para o espaço desejado */
 }
+
 header h1:nth-child(6) {
     margin-right: 80px;
 }
+
 .logo {
     width: 50px;
     height: 50px;
     margin-top: 9px;
     margin-left: 20px;
 }
+
 .rede {
     width: 21px;
     height: 19px;
     margin-left: 11px;
     margin-top: 20px;
 }
+
 .noticias-btn {
     margin-left: 100px;
     background-color: #cb0017;
     color: white;
 }
+
 .vertical {
     display: flex;
     flex-direction: column;
@@ -47,11 +55,62 @@ header h1:nth-child(6) {
     height: 100%;
     position: fixed;
 }
+
 .extra {
-    margin-top:30px ;
+    margin-top: 30px;
     width: 26px;
     height: 28px;
 }
+
 .extra:nth-child(1) {
     margin-top: 125px;
+}
+
+.horizontal {
+    margin-left: 90px;
+    background: url(https://cdn.saopaulofc.net/2024/07/240923_torcida_021-scaled.jpg);   
+    color: white;
+    height: 200px;
+    align-items: center;
+    display: flex;  
+}
+
+.horizontal h1 {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 375px;
+    font-size: 50px;
+}
+
+.blog-container {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.blog-img {
+    margin-right: 100px; /* Espaço entre as imagens */
+    width: 362px; /* Para alinhar com o tamanho da imagem */
+    height: 210px;
+}
+
+.blog-texto {
+    margin-top: 10px; /* Espaço acima do texto */
+    margin-left: 40px;
+}
+
+.blog-texto h1 {
+    color: red;
+    font-size: 20px;
+    width: 350px;
+}
+.blog-texto p {
+    width: 360px;
+}
+
+.botao {
+    background-color: #cb0017;
+    color: white;
+    width: 125px;
+    height: 39px;
 }
