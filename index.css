@@ -1,80 +1,57 @@
-body {
+body{
     margin: 0;
-    display: flex; 
 }
-
 header {
-    background-color: #000;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    text-align: center;
     color: white;
     display: flex;
-    padding: 5px 0;
-    margin: 0;
-    box-sizing: border-box;
-    align-items: flex-end;
-    flex: 1; /* Permite que o header use o espaço restante */
-    position: relative; /* Mantém o header acima da sidebar */
-    z-index: 1; /* Coloca o header acima da sidebar */
 }
-
 header h1 {
-    font-size: 14px;
-    padding: 0 10px;
-    margin-left: 20px; /* Margem padrão para todos os títulos */
+    font-size: 17px;
+    padding-left: 25px;
+    margin-top: 20px;
 }
-
+header h1:nth-child(5) {
+    margin-right: 150px; /* Ajuste o valor para o espaço desejado */
+}
+header h1:nth-child(6) {
+    margin-right: 80px;
+}
 .logo {
     width: 50px;
-    height: 60px;
-    margin-bottom: -40px; /* Ajusta a logo para ficar para baixo da navbar */
-    margin-left: 10px;
-}
-
-/* Aumentando o espaço entre SPFCPlay e O Mais Querido */
-header h1:nth-child(5) {
-    margin-right: 325px; /* Ajuste para o espaço desejado */
-}
-
-.rede {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-}
-
-/* Estilo da barra lateral */
-.sidebar {
-    width: 80px; /* Largura da sidebar */
-    background-color: rgb(71, 71, 71); /* Cor da sidebar */
-    display: flex;
-    flex-direction: column; /* Alinha as imagens em coluna */
-    padding-top: 70px; /* Espaço para a logo no topo */
-    position: fixed; /* Fixa a sidebar na tela */
-    height: 100%; /* Ocupa toda a altura da tela */
-    z-index: 0; /* Mantém a sidebar abaixo do header */
-}
-
-.noticias-btn {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin-left: 40px;
-    cursor: pointer;
-    font-size: 14px;
     height: 50px;
-    width: 100px;
+    margin-top: 9px;
+    margin-left: 20px;
 }
-
-.noticias-btn:hover {
-    background-color: darkred; /* Cor do botão ao passar o mouse */
+.rede {
+    width: 21px;
+    height: 19px;
+    margin-left: 11px;
+    margin-top: 20px;
 }
-
-.rede2 {
-    margin-left: 23px;
-    width: 25px;
+.noticias-btn {
+    margin-left: 100px;
+    background-color: #cb0017;
+    color: white;
+}
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #4e4e4e;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+}
+.extra {
+    margin-top:30px ;
+    width: 26px;
     height: 28px;
-    margin-top:40px;
 }
-
-.rede2:nth-child(1) {
-    margin-top: 50px;
+.extra:nth-child(1) {
+    margin-top: 125px;
 }
