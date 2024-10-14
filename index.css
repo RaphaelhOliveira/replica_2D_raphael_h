@@ -193,3 +193,42 @@ header h1:nth-child(6) {
     margin-left: 70px;
     margin-top: 225px;
 }
+.container {
+    display: flex;
+    gap: 10px;
+}
+.square {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 300px;
+    background-color: #cb0017;
+}
+.square:nth-child(1) {
+    margin-left: 300px;
+}
+.ultimo {
+    background-color: black;
+    margin-left: 90px;
+    display: flex;
+    margin-top: 200px;
+    align-items: center;
+}
+.logo-fn {
+    margin-left: 150px;
+    display: flex;
+}
+.logo-ft {
+    background-color: #cb0017;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+}
+.logo-texto {
+    color: white;
+    margin-left: 35px;
+}
