@@ -18,7 +18,7 @@ header h1 {
 }
 
 header h1:nth-child(5) {
-    margin-right: 150px; /* Ajuste o valor para o espaço desejado */
+    margin-right: 150px;
 }
 
 header h1:nth-child(6) {
@@ -82,20 +82,75 @@ header h1:nth-child(6) {
     font-size: 50px;
 }
 
-.blog-container {
+.content-container {
     display: flex;
+    justify-content: space-between; /* Para separar os conteúdos */
     margin-left: 70px;
+    margin-top: 55px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column; /* Para empilhar busca e categorias */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    margin-right: 100px; 
     margin-top: 50px;
 }
 
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: white; /* Fundo branco para a barra de busca */
+    padding: 5px; /* Espaço interno */
+    border-radius: 5px; /* Cantos arredondados */
+    margin-top: -10px; /* Diminui o espaço entre a imagem e a barra de busca */
+}
+
+.search-input {
+    padding: 10px;
+    border: none; /* Remove a borda padrão */
+    color: #cb0017; /* Cor do texto "Busca" */
+    outline: none; /* Remove o contorno ao focar */
+    width: 250px;
+    
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #4e4e4e;
+}
+
+.categorias {
+    margin-top: 10px; /* Espaço acima das categorias */
+    font-size: 20px;
+}
+
+.categoria {
+    color: #cb0017;
+    margin: 0;
+}
+.categoria:nth-child(1) {
+    color: #cb0017;
+}
+
+.blog-container {
+    display: flex;
+    margin-top: 0; /* Remova o espaço acima das imagens */
+}
+
 .blog-img {
-    margin-right: 100px; /* Espaço entre as imagens */
-    width: 362px; /* Para alinhar com o tamanho da imagem */
+    margin-right: 100px; 
+    width: 362px;
     height: 210px;
+}
+.blog-img :nth-child(2) {
+    margin-right: 3px;
 }
 
 .blog-texto {
-    margin-top: 10px; /* Espaço acima do texto */
+    margin-top: 10px; 
     margin-left: 40px;
 }
 
@@ -104,6 +159,7 @@ header h1:nth-child(6) {
     font-size: 20px;
     width: 350px;
 }
+
 .blog-texto p {
     width: 360px;
 }
@@ -113,4 +169,27 @@ header h1:nth-child(6) {
     color: white;
     width: 125px;
     height: 39px;
+}
+.content-container2 {
+    display: flex;
+    justify-content: space-between; /* Para separar os conteúdos */
+    margin-left: 70px;
+    margin-top: -450px;
+}
+.texto-lado {
+    margin-right: 10px;
+    margin-top: 290px;
+    font-size: 12px;
+}
+.texto-lado p {
+    font-size: 15px;
+}
+.texto-lado h2 {
+    color: #cb0017;
+}
+.content-container3 {
+    display: flex;
+    justify-content: space-between; /* Para separar os conteúdos */
+    margin-left: 70px;
+    margin-top: 225px;
 }
